@@ -1,0 +1,19 @@
+# Run outputs and logs
+slurm_logs/
+results/
+int_flow/results/
+*.log
+*.out
+
+# Data from or derived from the Paris bike-sharing data (UC Berkeley Data Sharing): do not commit
+261014_calibration_outputs/
+261014_calibration_outputs 2/
+int_flow/instances/
+int_flow/calibration/
+paris_*
+
+# Backups, caches, editor settings
+*.bak_*
+__pycache__/
+*.pyc
+.vscode/
